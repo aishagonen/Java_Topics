@@ -1,0 +1,30 @@
+package mm;
+
+public class TestStVar {
+
+	public static int stVar = 100;
+	public int var = 200;
+	
+	public String toString() {
+		return var + ":" + stVar;	
+	}
+
+	public static void main(String[] args) {
+		
+		TestStVar t1 = new TestStVar();
+		System.out.println(t1);
+		t1.var = 300;
+		
+		System.out.println(t1); // 300 : 100
+
+		TestStVar t2 = new TestStVar();
+		t2.stVar = 300;
+		
+		System.out.println(t2); // 200 : 300
+		
+	}
+
+}
+/*output: 300:100
+		  200:300 
+*/

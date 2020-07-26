@@ -1,0 +1,25 @@
+package ff;
+
+public class PlanetMain {
+
+	public static void main(String[] args) {
+
+		Planet [] planets = {
+				  new Planet("Mercury", 0),
+				  new Planet("Venus", 0),
+				  new Planet("A06Earth", 1),
+				  new Planet("Mars", 2)
+		};
+		
+		System.out.println(planets);
+		System.out.println(planets[2]);
+		System.out.println(planets[2].moons);
+	}
+}
+
+/* Outp:  	[Lexams.Planet;@7852e922
+			exams.Planet@4e25154f
+			1
+ */
+
+

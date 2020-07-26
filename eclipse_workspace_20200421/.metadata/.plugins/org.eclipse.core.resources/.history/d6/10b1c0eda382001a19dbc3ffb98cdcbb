@@ -1,0 +1,21 @@
+package kk;
+
+public class K102App {
+
+	int count;
+	
+	public static void displayMsg() {
+		count++;							// line n1
+		System.out.println("Welcome " + "Visit Count: " + count); // line n2
+	}
+	
+	public static void main(String[] args) {
+		
+		K102App.displayMsg();	// line 3
+		K102App.displayMsg();	// line 4
+		
+		
+
+	}
+
+}

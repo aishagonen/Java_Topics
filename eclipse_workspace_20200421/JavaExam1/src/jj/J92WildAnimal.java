@@ -1,0 +1,49 @@
+package jj;
+//SQ:97
+
+class Animal {
+	
+	String type = "Canine";
+	int maxSpeed = 60;
+	
+	Animal() {}
+	
+	Animal (String type, int maxSpeed) {
+		this.type = type;
+		this.maxSpeed = maxSpeed;
+	}
+	
+}
+
+public class J92WildAnimal {
+
+	String bounds;
+	
+	J92WildAnimal (String bounds) {
+		// line n1
+	}
+	
+	public J92WildAnimal(String type, int maxSpeed) {
+		// line n2
+	}
+	
+	public static void main(String[] args) {
+		
+
+		
+	}
+
+}
+
+/* 
+	Which two modifications enable the code to print the following output? 
+	Canine 60 Long
+	Feline 80 Short
+	
+	A. Replace line n1 with:super ();this.bounds = bounds;
+	B. Replace line n1 with:this.bounds = bounds;super ();
+	C. Replace line n2 with:super (type, maxSpeed);this (bounds);
+	D. Replace line n1 with:this (“Canine”, 60);this.bounds = bounds
+
+
+*/

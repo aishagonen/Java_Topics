@@ -1,0 +1,23 @@
+package jj;
+//SQ:94 / Q: 08
+import java.io.IOException;
+
+class X {
+
+	public void printFileContent() {  //line n3
+		/* code goes here*/
+		throw new IOException();  //line n4
+	}	
+}
+
+public class J98XTest {
+
+	public static void main(String[] args) {  // line n1
+		
+		X xobj = new X();
+		
+		xobj.printFileContent();	// line n2	
+	} //line n5
+	
+}
+

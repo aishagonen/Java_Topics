@@ -1,0 +1,24 @@
+package ff;
+
+public class F58Person {
+
+	String name;
+	int age = 25;
+	
+	public F58Person() {
+		this();		 	// line n1
+		setName(name);
+	}
+	
+	F58Person(String name, int age) {
+		F58Person(name);	// line n2
+		setAge(age);
+	}
+	
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

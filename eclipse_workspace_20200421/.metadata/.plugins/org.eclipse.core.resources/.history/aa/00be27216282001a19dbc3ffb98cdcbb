@@ -1,0 +1,30 @@
+package nn;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
+
+import mm.Test;
+
+public class N132Test {
+
+	int x, y;
+	
+	public N132Test(int x, int y) {
+		initialize(x,y);
+	}
+	
+	public void initialize(int x, int y) {
+		this.x = x * x;
+		this.y = y * y;
+	}
+	
+	public static void main(String[] args) {
+		
+		int x = 3, y = 5;
+
+		Test obj = new Test(x,y);
+		
+		System.out.println(x + " " + y);
+		
+	}
+
+}

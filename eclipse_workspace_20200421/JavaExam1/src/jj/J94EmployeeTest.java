@@ -1,0 +1,18 @@
+package jj;
+
+// Bitmedi
+public class J94EmployeeTest {
+
+	public static void main(String[] args) {
+
+		J94Employee e1 = new J94Employee();
+		J94Employee e2 = new J94Employee("Jack", 50);
+		J94Employee e3 = new J94Employee("Cloe", 40, 5000);
+		
+		e1.printDetails();
+		e2.printDetails();
+		e3.printDetails();
+
+	}
+
+}

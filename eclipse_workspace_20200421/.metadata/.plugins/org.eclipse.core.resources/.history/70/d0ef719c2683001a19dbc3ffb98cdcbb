@@ -1,0 +1,27 @@
+package ll;
+
+public class L110Stack {
+
+	public static void main(String[] args) {
+		
+		int[] stack = {10,20,30};
+		
+		int size = 3;
+		int dx = 0;
+		
+		/*line n1*/
+		
+		System.out.println("The top element: " + stack[idx]);
+
+	}
+
+}
+
+/*
+
+
+
+
+
+
+*/

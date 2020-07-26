@@ -1,0 +1,79 @@
+package gg;
+
+import java.io.*;
+import java.time.LocalDate;
+
+import javax.lang.model.element.VariableElement;
+
+import org.omg.CORBA.PRIVATE_MEMBER;
+
+//SQ:138
+public class G63A {
+	
+	public void a(){}
+	int a;
+}
+/*
+
+A.java:
+public class A {
+	
+	public void a(){} 			metod ve varibale ayni isim olabilir. 
+	int a;
+	
+}
+
+B.java:
+public class B {
+	
+	private int doStuff() {				local variable private olur mu o konuya bak
+		private int x = 100;
+		return x++;
+	}
+}	
+
+C.java: 
+import java.io.*;
+package p1;
+class A {
+
+	public void main(String fileName) throws IOException{ }
+
+}
+
+*/
+
+
+/*
+ 	Which statement is true?
+ 	
+	A. Only the A.Java file compiles successfully.
+	B. Only the B.java file compiles successfully.
+	C. Only the C.java file compiles successfully.
+	D. The A.Java and B.java files compile successfully.
+	E. The B.java and C.java files compile successfully.
+	F. The A.Java and C.java files compile successfully.
+	
+	
+	
+	Answ: A
+	
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

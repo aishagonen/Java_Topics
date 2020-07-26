@@ -1,0 +1,46 @@
+package oo;
+// Q:   / SQ: 103
+class A {
+	
+	public A() {
+		System.out.println("A ");
+	}
+}
+
+class B extends A {
+	
+	public B() {		// line n1
+		System.out.println("B ");
+	}
+}
+
+public class C extends B{
+
+	public C() {		// line n2
+		// super(); gizli super()'leri unutma. 
+		System.out.println("C ");
+	}
+	
+	public static void main(String[] args) {
+
+		C c = new C();
+
+	}
+
+}
+
+
+
+
+
+/*  outp: A B C 
+	
+	What is the result?
+	A. C B A
+	B. C
+	C. A B C
+	D. Compilation fails at line n1 and line n2
+	
+
+
+*/

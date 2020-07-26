@@ -1,0 +1,72 @@
+package gg;
+//SQ:138
+public class G63A {
+	
+	
+}
+
+
+/*
+
+A.java:
+public class A {
+	
+	public void a(){} 					==> method ve variable ayni isim olabilir. 
+	int a;
+	
+}
+
+B.java:
+public class B {
+	
+	private int doStuff() {				==> local variable private olur mu? 
+		private int x = 100;				El-cevab:No, it is a syntax error, you can not use access modifiers within a method.
+		return x++;									You can have private fields in a class, but this is different. 
+	}												You can not declare any variable with access specifier within a method.
+}													You can do it by defining inner class and declaring private variables inside that.
+													Variables inside method are considered local and can't have modifiers. 
+C.java: 
+import java.io.*;
+package p1;
+class A {
+
+	public void main(String fileName) throws IOException{ }
+
+}
+
+*/
+
+
+/*
+ 	Which statement is true?
+ 	
+	A. Only the A.Java file compiles successfully.
+	B. Only the B.java file compiles successfully.
+	C. Only the C.java file compiles successfully.
+	D. The A.Java and B.java files compile successfully.
+	E. The B.java and C.java files compile successfully.
+	F. The A.Java and C.java files compile successfully.
+	
+	
+	
+	Answ: A
+	
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

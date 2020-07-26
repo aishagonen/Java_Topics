@@ -1,0 +1,20 @@
+package jj;
+//SQ:
+class Patient {
+
+	String name;
+	
+	public J90Patient (String name) {
+		this.name = name;
+	}
+}	
+	
+public class Test {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

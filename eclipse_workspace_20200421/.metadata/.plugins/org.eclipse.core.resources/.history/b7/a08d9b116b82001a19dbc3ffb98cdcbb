@@ -1,0 +1,10 @@
+package nn;
+//SQ:98
+public class N138Grid {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
